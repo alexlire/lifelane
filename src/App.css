@@ -1,0 +1,43 @@
+/*----------------------------------------------------------------*/
+/*General*/
+/*General -> Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:wght@100&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bangers", cursive;
+}
+/*General -> Background Pattern*/
+body {
+  background-color: #9de7d7;
+  background-image: radial-gradient(white 0.5px, transparent 0.5px),
+    radial-gradient(white 0.5px, #9de7d7 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+.container {
+  background-color: white;
+}
+/*General -> Container*/
+.container {
+  margin-top: 2rem;
+  min-height: 80vh;
+  border-radius: 1rem;
+}
+/*----------------------------------------------------------------*/
+/*Navigation Menu*/
+/*Navigation Menu -> Brand*/
+.navbar-brand {
+  margin: 0 0.5rem;
+}
+.navbar-brand img {
+  display: block;
+  height: 3rem;
+  width: auto;
+}
